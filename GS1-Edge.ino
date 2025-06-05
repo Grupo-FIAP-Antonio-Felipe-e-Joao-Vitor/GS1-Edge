@@ -467,7 +467,7 @@ void mostrarMenuDist() {
 
 void mostrarMenuFuso() {
   Serial.println("\n=== Configuracoes de fuso ===");
-  Serial.println("Fuso horario atual: UTC");
+  Serial.print("Fuso horario atual: UTC");
   if(UTC_OFFSET >= 0) { Serial.print("+"); }
   Serial.println(UTC_OFFSET);
   Serial.println("Digite o fuso horario (ex: -3, 0, 3 ...)");
